@@ -47,3 +47,18 @@ lambda string: (string.upper(), len(string))
 
 #15
 lambda n: abs(n) if n < 0 else n * n
+
+#16.
+lambda score: "A" if score >= 90 else "B" if score >=80 else "C" if score >= 70 else "F"
+
+#17.
+lambda a, b, c: max(a, b, c) - min(a, b, c)
+
+#18.
+lambda a, b:  "Cannot divide" if b == 0 else a/b
+
+#19.
+lambda n: "FizzBuzz" if n % 3 == 0 and n % 5 == 0 else "Fizz" if n % 3 == 0 else "Buzz" if n % 5 == 0 else n
+
+#20.
+lambda price, is_member: price * 0.85 if is_member else price * 0.95 if price > 200 else price
